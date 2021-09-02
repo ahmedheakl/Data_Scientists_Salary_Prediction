@@ -8,6 +8,7 @@ import numpy as np
 
 app = Flask(__name__)
 
+# Loading our saved model to predict the input vals
 def load_model():
     path = './models/model_file.p'
     with open(path, 'rb') as pickled:
@@ -15,8 +16,12 @@ def load_model():
         model = data['model']
     return model
 
+# If we go to the route predict using a GET method,
+# we run the predict function
 @app.route('/predict', methods=['GET'])
 def predict():
+    
+    # Getting the json respose sent via the GET method
     request_json = request.get_json()
     x = request_json['input']
 
@@ -28,6 +33,8 @@ def predict():
     # Loading the model
     model = load_model()
     prediction = model.predict(x_input)[0]
+    
+    # Converting the prediction into a json response
     response = json.dumps({'response': prediction})
     return response, 200
 
