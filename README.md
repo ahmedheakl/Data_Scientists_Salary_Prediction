@@ -37,6 +37,10 @@ After scraping, the data had to be ready for the model usages. Hence, I made the
   * Dropped the rows with no job salaries
   * Parsed the salary by getting rid of "Glassdoor est.", the dollar sign, and the 'K' letter.
   * Extracted *per_hour* and *employer provided* columns from *Salary Estimate* column
+  * Extracted the *min_salary*, *max_salary*, and *avg_salary*, which will be our target column.
+  * Parsed *Company Names* to get rid of the rating, to a new *company_txt* column.
+  * Parsed *Location* to include only the two letter code for the city, to *job_state* column
+  * Checked whether the *Location* is the same as the *Headquarters*, to a new *same_state* column
   * 
 
 
