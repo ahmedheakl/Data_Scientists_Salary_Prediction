@@ -6,8 +6,9 @@
 * Built a client facing API using Flask.
 
 # Resources
-* How I set up the flask API?
-https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+**How I set up the webscrapping?:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905
+**How I set up the flask API?:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+**How I wrote this README file?:** https://www.markdownguide.org/cheat-sheet/
 
 
 
