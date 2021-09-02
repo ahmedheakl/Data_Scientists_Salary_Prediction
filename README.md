@@ -12,9 +12,7 @@
 
 # Code and Packages
 **Python Version:** 3.9.6
-
 **Packages:** Selenium, Pandas, Sk-learn, Numpy, Flask, Requests, Pickle, Matplotlib
-
 **for Web Framwork Requirements:** In the FlaskAPI directorty run ```pip install -r requirements.txt```
 
 
