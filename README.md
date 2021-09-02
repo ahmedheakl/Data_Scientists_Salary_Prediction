@@ -41,6 +41,7 @@ After scraping, the data had to be ready for the model usages. Hence, I made the
   * Parsed *Company Names* to get rid of the rating, to a new *company_txt* column.
   * Parsed *Location* to include only the two letter code for the city, to *job_state* column
   * Checked whether the *Location* is the same as the *Headquarters*, to a new *same_state* column
+  * Extracted *age* column (years since the country was founded till now) from *Founded* column
   * 
 
 
