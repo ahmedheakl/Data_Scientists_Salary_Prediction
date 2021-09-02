@@ -6,7 +6,7 @@
 * Built a client facing API using Flask.
 
 # Resources
-** How I set up the flask API?
+* How I set up the flask API?
 https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 
