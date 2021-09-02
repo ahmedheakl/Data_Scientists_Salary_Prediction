@@ -60,6 +60,33 @@ I looked at the distribution to have an idea how the data are organized and how 
 ![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/correlation_heatmap.png "Correlations")
 <img width="250" height="400" src="https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/Words.png">
 
+## Model Building
+* I extract the most important features(22 feature), and then I got the dummy columns for the categorical features
+* **Note**: In pulling out the *y* column, I converted it into a 1-d array because it is recommended.
+* I split the data into train and test ```test_size=0.2```
+* I used statsmodels OLS to get information on the relevant column of the data.
+I tried three different models:
+*	**Linear Regression** – Baseline for the model
+*	**Lasso Regression** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
+*	**Random Forest** – Again, with the sparsity associated with the data, I thought that this would be a good fit. 
+
+## Model performance
+The Random Forest model far outperformed the other approaches on the test and validation sets. 
+*MAE: mean absolute error*
+*	**Random Forest** : MAE = 11.22
+*	**Linear Regression**: MAE = 18.86
+*	**Ridge Regression**: MAE = 19.67
+
+## Productionization 
+In this step, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary. **SEE THE EXAMPLE FILE: *API_request_example.ipynb* **
+
+
+
+
+
+
+
+
 
 
 
