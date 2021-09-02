@@ -52,10 +52,12 @@ After scraping, the data had to be ready for the model usages. Hence, I made the
   *	Column for description length
 ## Exploratory Data Analysis
 I looked at the distribution to have an idea how the data are organized and how they are distributed to take hint of what model would be suitable. Below are a few highlights:
-<img align="left" width="100" height="100" src="https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/Words.png">
+
+
 ![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/salary_by_job_title.PNG "Salary by Position")
 ![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/positions_by_state.png "Job Opportunities by State")
 ![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/correlation_heatmap.png "Correlations")
+<img align="center" width="300" height="600" src="https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/Words.png">
 <!--![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/Words.png "Common Words in Description")-->
 
 
