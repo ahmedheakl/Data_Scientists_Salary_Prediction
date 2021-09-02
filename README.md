@@ -6,14 +6,14 @@
 * Built a client facing API using Flask.
 
 # Resources
-**How I set up the webscraping?:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905
-**How I set up the flask API?:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
-**How I wrote this README file?:** https://www.markdownguide.org/cheat-sheet/
+* **How I set up the webscraping?:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905
+* **How I set up the flask API?:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+* **How I wrote this README file?:** https://www.markdownguide.org/cheat-sheet/
 
 # Code and Packages
-**Python Version:** 3.9.6
-**Packages:** Selenium, Pandas, Sk-learn, Numpy, Flask, Requests, Pickle, Matplotlib
-**for Web Framwork Requirements:** In the FlaskAPI directorty run ```pip install -r requirements.txt```
+* **Python Version:** 3.9.6
+* **Packages:** Selenium, Pandas, Sk-learn, Numpy, Flask, Requests, Pickle, Matplotlib
+* **for Web Framwork Requirements:** In the FlaskAPI directorty run ```pip install -r requirements.txt```
 
 
 
