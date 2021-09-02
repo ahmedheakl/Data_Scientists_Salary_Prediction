@@ -56,9 +56,10 @@ I looked at the distribution to have an idea how the data are organized and how 
 
 ![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/salary_by_job_title.PNG "Salary by Position")
 ![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/positions_by_state.png "Job Opportunities by State")
+<p align="center">
 ![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/correlation_heatmap.png "Correlations")
-
 <img align="center" width="250" height="500" src="https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/Words.png">
+ </p>
 <!--![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/Words.png "Common Words in Description")-->
 
 
