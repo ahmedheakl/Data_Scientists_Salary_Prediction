@@ -50,9 +50,13 @@ After scraping, the data had to be ready for the model usages. Hence, I made the
     * Spark 
   *	Column for simplified job title and Seniority 
   *	Column for description length
-
 ## Exploratory Data Analysis
 I looked at the distribution to have an idea how the data are organized and how they are distributed to take hint of what model would be suitable. Below are a few highlights:
+![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/salary_by_job_title.PNG "Salary by Position")
+![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/positions_by_state.png "Job Opportunities by State")
+![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/correlation_visual.png "Correlations")
+![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/Words.png "Common Words in Description")
+
 
 
 
