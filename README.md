@@ -51,6 +51,8 @@ After scraping, the data had to be ready for the model usages. Hence, I made the
   *	Column for simplified job title and Seniority 
   *	Column for description length
 
+## Exploratory Data Analysis
+I looked at the distribution to have an idea how the data are organized and how they are distributed to take hint of what model would be suitable. Below are a few highlights:
 
 
 
