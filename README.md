@@ -7,7 +7,7 @@
 
 # Resources
 * **How I set up the webscraping?:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905
-* **How I set up the flask API?:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+* **How I set up the flaskAPI?:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 * **How I wrote this README file?:** https://www.markdownguide.org/cheat-sheet/
 
 # Code and Packages
