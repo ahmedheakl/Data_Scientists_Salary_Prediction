@@ -71,6 +71,7 @@ pred_lm = linear_regression.predict(X_test)
 pred_lml = lasso.predict(X_test)
 pred_rf = gs.best_estimator_.predict(X_test)
 
+# Measuring the performance of each Model
 from sklearn.metrics import mean_absolute_error
 mean_absolute_error(y_test,pred_lm)
 mean_absolute_error(y_test,pred_lml)
@@ -78,7 +79,7 @@ mean_absolute_error(y_test,pred_rf)
 
 mean_absolute_error(y_test,(pred_lm+pred_rf)/2)
 
-
+# Saving the model for the API later
 import pickle
 pickl = {'model':gs.best_estimator_}
 pickle.dump(pickl, open('model_file' + ".p", "wb"))
