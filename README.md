@@ -59,7 +59,7 @@ I looked at the distribution to have an idea how the data are organized and how 
 
 
 ![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/correlation_heatmap.png "Correlations")
-<img align="center" width="150" height="500" src="https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/Words.png">
+<img align="center" width="250" height="300" src="https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/Words.png">
 <!--![alt text](https://github.com/ahmedheakl/Data_Scientists_salary_prediction/blob/main/Words.png "Common Words in Description")-->
 
 
