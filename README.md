@@ -17,6 +17,27 @@
 
 ## Web Scraping
 I modified the github repo(above), since it wasn't up-to-date, to get over 1000 jobs. For each job, I got acquired the following info:
+  *	Job title
+  *	Salary Estimate
+  *	Job Description
+  *	Rating
+  *	Company 
+  *	Location
+  *	Company Headquarters 
+  *	Company Size
+  *	Company Founded Date
+  *	Type of Ownership 
+  *	Industry
+  *	Sector
+  *	Revenue
+  *	Competitors 
+
+## Data Cleaning
+After scraping, the data had to be ready for the model usages. Hence, I made the following changes: 
+  * Dropped the rows with no job salaries
+  * Parsed the salary by getting rid of "Glassdoor est.", the dollar sign, and the 'K' letter.
+  * Extracted *per_hour* and *employer provided* columns from *Salary Estimate* column
+  * 
 
 
 
