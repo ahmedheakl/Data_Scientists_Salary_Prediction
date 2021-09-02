@@ -78,3 +78,8 @@ mean_absolute_error(y_test,pred_rf)
 
 mean_absolute_error(y_test,(pred_lm+pred_rf)/2)
 
+
+import pickle
+pickl = {'model':gs.best_estimator_}
+pickle.dump(pickl, open('model_file' + ".p", "wb"))
+
